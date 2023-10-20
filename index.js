@@ -3,7 +3,8 @@ let xp = 0
 let nivelDoHeroi = 'iniciante'
 let xpDesejada = 10002
 
-
+// Resolvi dificultar o desafio para treinar o contéudo aprendido nas aulas.
+// Simulei que meu personagem estava mantando monstros para ganhar XP e apartir dai ir "upando" de nível até chegar no nível maximo desejado. 
 
 while (xp < xpDesejada) {
     console.log(nome + 'matou um monstro e ganhou 1000 de experiencia!')
@@ -56,9 +57,6 @@ while (xp < xpDesejada) {
     }
     
 } 
-
-
-
 
 console.log('O Herói de nome ' + nome +'está no nível de ' + nivelDoHeroi)
 
